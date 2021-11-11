@@ -235,8 +235,7 @@ namespace opc
                     var names = dictitem.Select(t => t.StationNo).Distinct<string>().ToList();
                     foreach (string row in names)
                     {
-                        string srt = "从dictitem中获取数据并传递到UP方法上传数据。";
-                        str = str + "TM:" + DateTime.Now.ToString("yyMMddHHmmss") + ";A1#";
+                        string str = "从dictitem中获取数据并传递到UP方法上传数据。";
                         Up(str);
                     }
                 }
@@ -283,7 +282,7 @@ namespace opc
                 {
                     int tmpClientHandle = Convert.ToInt32(ClientHandles.GetValue(i));
                     string tmpValue = ItemValues.GetValue(i).ToString();
-                    string tmpTime = ((DateTime)(TimeStamps.GetValue(i))).ToString();
+                    string tmpTime = ((DateTime)(TimeStamps.GetValue(i))).AddHours(8).ToString();
                     dictitem[tmpClientHandle-1].Values = tmpValue;
                     dictitem[tmpClientHandle-1].Time = tmpTime;
                 }
