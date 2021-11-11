@@ -1,0 +1,16 @@
+X:\opc\opc\opc\bin\Debug\opc.exe
+X:\opc\opc\opc\bin\Debug\opc.pdb
+X:\opc\opc\opc\obj\Debug\opc.csprojAssemblyReference.cache
+X:\opc\opc\opc\obj\Debug\Interop.OPCAutomation.dll
+X:\opc\opc\opc\obj\Debug\opc.csproj.ResolveComReference.cache
+X:\opc\opc\opc\obj\Debug\MainWindow.g.cs
+X:\opc\opc\opc\obj\Debug\App.g.cs
+X:\opc\opc\opc\obj\Debug\opc_MarkupCompile.cache
+X:\opc\opc\opc\obj\Debug\opc_MarkupCompile.lref
+X:\opc\opc\opc\obj\Debug\MainWindow.baml
+X:\opc\opc\opc\obj\Debug\opc.g.resources
+X:\opc\opc\opc\obj\Debug\opc.Properties.Resources.resources
+X:\opc\opc\opc\obj\Debug\opc.csproj.GenerateResource.cache
+X:\opc\opc\opc\obj\Debug\opc.csproj.CoreCompileInputs.cache
+X:\opc\opc\opc\obj\Debug\opc.exe
+X:\opc\opc\opc\obj\Debug\opc.pdb

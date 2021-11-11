@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AsyncBridge.0.3.1.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Global.Fakes.ShimAsyncCompatLibExtensions">
+            <summary>AsyncCompatLibExtensions 的填充码类型</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAsyncCompatLibExtensions.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAsyncCompatLibExtensions.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAsyncCompatLibExtensions.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAsyncCompatLibExtensions.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAsyncCompatLibExtensions.ConfigureAwaitOf1TaskOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Threading.Tasks.Task{``0},System.Boolean,System.Runtime.CompilerServices.ConfiguredTaskAwaitable{``0}})">
+            <summary>设置 AsyncCompatLibExtensions.ConfigureAwait(Task`1&lt;!!0&gt; task, Boolean continueOnCapturedContext) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAsyncCompatLibExtensions.ConfigureAwaitTaskBoolean">
+            <summary>设置 AsyncCompatLibExtensions.ConfigureAwait(Task task, Boolean continueOnCapturedContext) 的 填充码</summary>
+        </member>
+        <member name="M:Global.Fakes.ShimAsyncCompatLibExtensions.GetAwaiterOf1TaskOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Threading.Tasks.Task{``0},System.Runtime.CompilerServices.TaskAwaiter{``0}})">
+            <summary>设置 AsyncCompatLibExtensions.GetAwaiter(Task`1&lt;!!0&gt; task) 的 填充码</summary>
+        </member>
+        <member name="P:Global.Fakes.ShimAsyncCompatLibExtensions.GetAwaiterTask">
+            <summary>设置 AsyncCompatLibExtensions.GetAwaiter(Task task) 的 填充码</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.AsyncBridgeDelegates">
+            <summary>包含用于 AsyncBridge 的存根和填充码的自定义委托</summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine">
+            <summary>System.Runtime.CompilerServices.IAsyncStateMachine 的存根类型</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine.#ctor">
+            <summary>初始化 type StubIAsyncStateMachine 的新实例</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine.MoveNext">
+            <summary>设置 IAsyncStateMachine.MoveNext() 的 stub</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine.SetStateMachineIAsyncStateMachine">
+            <summary>设置 IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine) 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine.System#Runtime#CompilerServices#IAsyncStateMachine#MoveNext">
+            <summary>设置 IAsyncStateMachine.MoveNext() 的 存根</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubIAsyncStateMachine.System#Runtime#CompilerServices#IAsyncStateMachine#SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)">
+            <summary>设置 IAsyncStateMachine.SetStateMachine(IAsyncStateMachine stateMachine) 的 存根</summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion">
+            <summary>System.Runtime.CompilerServices.ICriticalNotifyCompletion 的存根类型</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion.#ctor">
+            <summary>初始化 type StubICriticalNotifyCompletion 的新实例</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion.OnCompletedAction">
+            <summary>设置 INotifyCompletion.OnCompleted(Action continuation) 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion.System#Runtime#CompilerServices#ICriticalNotifyCompletion#UnsafeOnCompleted(System.Action)">
+            <summary>设置 ICriticalNotifyCompletion.UnsafeOnCompleted(Action continuation) 的 存根</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion.System#Runtime#CompilerServices#INotifyCompletion#OnCompleted(System.Action)">
+            <summary>设置 INotifyCompletion.OnCompleted(Action continuation) 的 存根</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubICriticalNotifyCompletion.UnsafeOnCompletedAction">
+            <summary>设置 ICriticalNotifyCompletion.UnsafeOnCompleted(Action continuation) 的 stub</summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.Fakes.StubINotifyCompletion">
+            <summary>System.Runtime.CompilerServices.INotifyCompletion 的存根类型</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubINotifyCompletion.#ctor">
+            <summary>初始化 type StubINotifyCompletion 的新实例</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubINotifyCompletion.OnCompletedAction">
+            <summary>设置 INotifyCompletion.OnCompleted(Action continuation) 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubINotifyCompletion.System#Runtime#CompilerServices#INotifyCompletion#OnCompleted(System.Action)">
+            <summary>设置 INotifyCompletion.OnCompleted(Action continuation) 的 存根</summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute">
+            <summary>System.Runtime.CompilerServices.StateMachineAttribute 的存根类型</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.#ctor(System.Type)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.Equals(System.Object)">
+            <summary>设置 Attribute.Equals(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.EqualsObject">
+            <summary>设置 Attribute.Equals(Object obj) 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.GetHashCode">
+            <summary>设置 Attribute.GetHashCode() 的 存根</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.GetHashCode01">
+            <summary>设置 Attribute.GetHashCode() 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.InitializeStub">
+            <summary>初始化 type StubStateMachineAttribute 的新实例</summary>
+        </member>
+        <member name="P:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.IsDefaultAttribute">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 存根</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.IsDefaultAttribute01">
+            <summary>设置 Attribute.IsDefaultAttribute() 的 stub</summary>
+        </member>
+        <member name="M:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.Match(System.Object)">
+            <summary>设置 Attribute.Match(Object obj) 的 存根</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.MatchObject">
+            <summary>设置 Attribute.Match(Object obj) 的 stub</summary>
+        </member>
+        <member name="P:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.TypeId">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="F:System.Runtime.CompilerServices.Fakes.StubStateMachineAttribute.TypeIdGet">
+            <summary>设置 Attribute.get_TypeId() 的 stub</summary>
+        </member>
+        <member name="T:System.Threading.Tasks.Fakes.ShimTaskEx">
+            <summary>System.Threading.Tasks.TaskEx 的填充码类型</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.AddPotentiallyUnwrappedExceptionsListOfExceptionRefException">
+            <summary>设置 TaskEx.AddPotentiallyUnwrappedExceptions(List`1&lt;Exception&gt;&amp; targetList, Exception exception) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.DelayInt32">
+            <summary>设置 TaskEx.Delay(Int32 dueTime) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.DelayTimeSpan">
+            <summary>设置 TaskEx.Delay(TimeSpan dueTime) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.FromResultOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Threading.Tasks.Task{``0}})">
+            <summary>设置 TaskEx.FromResult(!!0 result) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.RunAction">
+            <summary>设置 TaskEx.Run(Action action) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.RunFuncOfTask">
+            <summary>设置 TaskEx.Run(Func`1&lt;Task&gt; function) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.RunOf1FuncOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0},System.Threading.Tasks.Task{``0}})">
+            <summary>设置 TaskEx.Run(Func`1&lt;!!0&gt; function) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.RunOf1FuncOfTaskOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{System.Threading.Tasks.Task{``0}},System.Threading.Tasks.Task{``0}})">
+            <summary>设置 TaskEx.Run(Func`1&lt;Task`1&lt;!!0&gt;&gt; function) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.StaticConstructor">
+            <summary>设置 TaskEx.TaskEx() 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAllCoreOf1IEnumerableOfTaskActionOfTaskArrayTaskCompletionSourceOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Action{System.Threading.Tasks.Task[],System.Threading.Tasks.TaskCompletionSource{``0}},System.Threading.Tasks.Task{``0}})">
+            <summary>设置 TaskEx.WhenAllCore(IEnumerable`1&lt;Task&gt; tasks, Action`2&lt;Task[],TaskCompletionSource`1&lt;!!0&gt;&gt; setResultAction) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAllIEnumerableOfTask">
+            <summary>设置 TaskEx.WhenAll(IEnumerable`1&lt;Task&gt; tasks) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAllOf1IEnumerableOfTaskOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Threading.Tasks.Task{``0[]}})">
+            <summary>设置 TaskEx.WhenAll(IEnumerable`1&lt;Task`1&lt;!!0&gt;&gt; tasks) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAllOf1TaskOfM0Array``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Threading.Tasks.Task{``0}[],System.Threading.Tasks.Task{``0[]}})">
+            <summary>设置 TaskEx.WhenAll(Task`1&lt;!!0&gt;[] tasks) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAllTaskArray">
+            <summary>设置 TaskEx.WhenAll(Task[] tasks) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAnyIEnumerableOfTask">
+            <summary>设置 TaskEx.WhenAny(IEnumerable`1&lt;Task&gt; tasks) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAnyOf1IEnumerableOfTaskOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Threading.Tasks.Task{System.Threading.Tasks.Task{``0}}})">
+            <summary>设置 TaskEx.WhenAny(IEnumerable`1&lt;Task`1&lt;!!0&gt;&gt; tasks) 的 填充码</summary>
+        </member>
+        <member name="M:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAnyOf1TaskOfM0Array``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Threading.Tasks.Task{``0}[],System.Threading.Tasks.Task{System.Threading.Tasks.Task{``0}}})">
+            <summary>设置 TaskEx.WhenAny(Task`1&lt;!!0&gt;[] tasks) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.WhenAnyTaskArray">
+            <summary>设置 TaskEx.WhenAny(Task[] tasks) 的 填充码</summary>
+        </member>
+        <member name="P:System.Threading.Tasks.Fakes.ShimTaskEx.Yield">
+            <summary>设置 TaskEx.Yield() 的 填充码</summary>
+        </member>
+    </members>
+</doc>

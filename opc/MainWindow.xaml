@@ -1,0 +1,23 @@
+﻿<Window x:Class="opc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:opc"
+        mc:Ignorable="d"
+        Title="OPC采集" Height="450" Width="800" StateChanged="Window_StateChanged" Closing="Window_Closing" >
+    <Grid>
+        <Menu FontSize="15" >
+            <MenuItem Header="上传设置" BorderBrush="Black" BorderThickness="1" Click="MenuItem_Click_4"></MenuItem>
+            <MenuItem Header="站点设置" Click="MenuItem_Click" BorderBrush="Black" BorderThickness="1"></MenuItem>
+            <MenuItem Header="开始采集" Click="MenuItem_Click_1" BorderBrush="Black" BorderThickness="1"></MenuItem>
+            <MenuItem Header="结束采集" Click="MenuItem_Click_2" BorderBrush="Black" BorderThickness="1"></MenuItem>
+            <MenuItem Header="位号设置" Click="MenuItem_Click_3" BorderBrush="Black" BorderThickness="1"></MenuItem>
+            <TextBlock TextWrapping="Wrap"/>
+        </Menu>
+        <DataGrid HorizontalAlignment="Left" Height="312" Margin="10,39,0,0" VerticalAlignment="Top" Width="772" x:Name="dg" IsReadOnly="True">
+
+        </DataGrid>
+        <TextBlock HorizontalAlignment="Left" Margin="26,371,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Name="stat"/>
+    </Grid>
+</Window>

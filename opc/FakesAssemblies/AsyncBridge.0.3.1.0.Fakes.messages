@@ -1,0 +1,26 @@
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 AsyncCompatLibExtensions 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Threading.Tasks.TaskEx 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncMethodTaskCache`1 生成存根: 类型对 exported or assembly(AsyncBridge.0.3.1.0.Fakes) 不可见。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncStateMachineAttribute 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerFilePathAttribute 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerLineNumberAttribute 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerMemberNameAttribute 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.IAsyncMethodBuilder 生成存根: 类型对 exported or assembly(AsyncBridge.0.3.1.0.Fakes) 不可见。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.IteratorStateMachineAttribute 生成存根: 类型已密封。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncMethodBuilderCore 生成填充码: 类型对 exported or assembly(AsyncBridge.0.3.1.0.Fakes) 不可见。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncMethodTaskCache`1 生成填充码: 类型对 exported or assembly(AsyncBridge.0.3.1.0.Fakes) 不可见。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncStateMachineAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncTaskMethodBuilder 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.AsyncVoidMethodBuilder 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerFilePathAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerLineNumberAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.CallerMemberNameAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.ConfiguredTaskAwaitable 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.IteratorStateMachineAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.StateMachineAttribute 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.TaskAwaiter 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.TaskAwaiter`1 生成填充码: 类型不受支持，因为存在内部限制。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.VoidTaskResult 生成填充码: 类型对 exported or assembly(AsyncBridge.0.3.1.0.Fakes) 不可见。
+X:\opc\opc\opc\Fakes\AsyncBridge.fakes : warning : 无法为 System.Runtime.CompilerServices.YieldAwaitable 生成填充码: 类型不受支持，因为存在内部限制。
